@@ -154,15 +154,12 @@ hr {
     font-size: 20px;
 }
 
-/* .page {
-    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-
-} */
 
 .president {
     width: 280px;
     height: 280px;
     display: inline-block;
+    font-size: 30px;
 }
 
 .picture {
@@ -253,6 +250,12 @@ footer p {
         margin-top: -82px;
     }
 
+    .picture {
+        grid-template-columns: 1fr 1fr;
+        width: 95%;
+
+    }
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -272,6 +275,11 @@ footer p {
 
     }
 
+    .picture {
+        grid-template-columns: 1fr 1fr;
+        width: 95%;
+
+    }
 
 
 }
@@ -292,6 +300,8 @@ footer p {
 
     .picture {
         grid-template-columns: 1fr 1fr;
+        width: 95%;
+
     }
 }
 
