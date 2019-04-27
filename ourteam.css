@@ -140,8 +140,8 @@ h3 {
 
 .pic {
     margin-top: 10px;
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     /* display: block; */
 }
 
@@ -298,6 +298,13 @@ footer p {
 @media only screen and (max-width: 566px) {
     .picture {
         margin-top: -160px;
+        width: 95%;
+    }
+
+    .pic {
+        height: 140px;
+        width: 140px;
+
     }
 }
 

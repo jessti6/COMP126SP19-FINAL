@@ -18,7 +18,7 @@
     <!-- link for google font -->
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Noto+Sans" rel="stylesheet">
 
-    <!-- Link to your custom stylesheet WOULD go here if we were not using Codepen. Any non-Bootstrap styles you create go in this stylesheet. You can create new classes and IDs, or add new rules for classes that already exist in Bootstrap. Any rules you put in your custom stylesheet will override any styling applied to any elements of the same name in Bootstrap, as long as your custom stylesheet link comes AFTER your Bootstrap CSS link. HOWEVER, since this is Codepen, we don't need to add a link to the custom stylesheet. -->
+    <!--custom stylesheet-->
     <link rel="stylesheet" type="text/css" href="event.css">
 
 </head>
@@ -63,11 +63,11 @@
                             <li class="menuitem dropdown-item"><a href="other.html" class="menulink">Others</a></li>
                         </ul>
                     </li>
-
                 </ul>
             </div>
         </nav>
     </div>
+
 
     <!-- 正文 -->
     <section class="supporting">
@@ -82,47 +82,71 @@
         </div>
     </section>
 
-</body>
 
-<footer>
-    <div class="footer">
-        <div class="footer-inner">
-            <div class="footer-about">
-                <p>About</p>
-                <ul class="about">
-                    <li><a href="ourteam.html">Our Team</a></li>
-                    <li><a href="aboutus.html">Join Us</a></li>
-                </ul>
-            </div>
-            <div class="footer-event">
-                <p>Events</p>
-                <ul class="eventfooter">
-                    <li><a href="sibling.html">Sibling</a></li>
-                    <li><a href="midautumn.html">Mid Autumn</a></li>
-                    <li><a href="newyear.html">Chinese New Year</a></li>
-                    <li><a href="other.html">Others</a></li>
-                </ul>
-            </div>
-
-
-            <div class="contact">
-                <p>Contact</p>
-                <div class="con">
-                    <i class="fab fa-facebook"></i>
-                    <a href="https://www.facebook.com/UNC.CUSA/">@UNC CUSA</a>
+    <!-- footer -->
+    <footer>
+        <div class="footer">
+            <div class="footer-inner">
+                <div class="footer-about">
+                    <p>About</p>
+                    <ul class="about">
+                        <li><a href="ourteam.html">Our Team</a></li>
+                        <li><a href="aboutus.html">Join Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-event">
+                    <p>Events</p>
+                    <ul class="eventfooter">
+                        <li><a href="sibling.html">Sibling</a></li>
+                        <li><a href="midautumn.html">Mid Autumn</a></li>
+                        <li><a href="newyear.html">Chinese New Year</a></li>
+                        <li><a href="other.html">Others</a></li>
+                    </ul>
                 </div>
 
-                <div class="con">
-                    <i class="fab fa-instagram"></i>
-                    <a href="https://www.instagram.com/unc.cusa/">@unc.cusa</a>
-                </div>
 
-                <div class="con">
-                    <i class="fas fa-envelope"></i>
-                    <a href="mailto:unc.cusa@gmail.com">unc.cusa@gmail.com</a>
-                </div>
+                <div class="contact">
+                    <p>Contact</p>
+                    <div class="con">
+                        <i class="fab fa-facebook"></i>
+                        <a href="https://www.facebook.com/UNC.CUSA/">@UNC CUSA</a>
+                    </div>
 
+                    <div class="con">
+                        <i class="fab fa-instagram"></i>
+                        <a href="https://www.instagram.com/unc.cusa/">@unc.cusa</a>
+                    </div>
+
+                    <div class="con">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:unc.cusa@gmail.com">unc.cusa@gmail.com</a>
+                    </div>
+
+                </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
+
+
+
+
+    <!-- NECESSARY <script> LINKS. The three <script> links below add jQuery, popper.js, and Bootstrap 4 JavaScript. These are libraries of scripts that are necessary to make Bootstrap's interactive and animated components work (e.g., dropdown menus, buttons, alerts, carousels, collapsing navbars and content areas, modals, popups, tooltips, etc). These three <script> links MUST appear in THIS ORDER; this is because both popper.js and the Bootstrap scripts rely on jQuery to work, so jQuery must load into your page first. We add these links at the bottom of the <body> element instead of in the <head> element so the scripts won't be loaded into your site until they're needed, which helps with your site's speed and functionality. -->
+
+    <!-- jQuery--this must come first! -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+
+    <!-- popper.js--a library of drop-down and pop-up JavaScript scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous">
+    </script>
+
+    <!-- unique Bootstrap 4 JavaScript scripts -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
