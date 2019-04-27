@@ -278,8 +278,6 @@ footer p {
     .midautumn {
         height: 335px;
         width: 285px;
-        margin: 0 auto;
-        display: inline-block;
     }
 }
 
@@ -288,5 +286,19 @@ footer p {
         font-size: 1.3em;
     }
 
+    .newyear {
+        height: 140px;
+        width: 250px;
+    }
+
+    .midautumn {
+        height: 300px;
+        width: 250px;
+    }
+
+    .sibling {
+        height: 150px;
+        width: 250px;
+    }
 
 }
