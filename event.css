@@ -1,3 +1,8 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* header */
 .header {
     background: rgb(127, 190, 168);
     position: fixed;
@@ -16,12 +21,11 @@
 }
 
 .header_title {
+    color: #433A34;
     font-size: 30px;
     display: inline-block;
     margin-top: 25px;
     font-family: 'Noto Sans', sans-serif;
-
-    /* font-family: 'Alegreya Sans', sans-serif; */
 }
 
 .mobiletitle {
@@ -57,7 +61,7 @@
 }
 
 .menuitem:hover .menulink {
-    color: black;
+    color: #433A34;
 }
 
 .dropdown {
@@ -89,17 +93,35 @@
 }
 
 .dropdown-item:hover {
-    background-color: lightyellow;
+    background-color: #FFEAA9;
 }
 
 .dropdown-item:hover .menulink {
-    color: black;
+    color: #433A34;
     text-decoration: none;
 }
 
-/* 正文 */
-.supporting {
+/* route */
+.route {
+    margin: 0 auto;
     margin-top: 146px;
+    padding-top: 5px;
+    width: 80%;
+    color: #707070;
+}
+
+.route a {
+    color: #707070;
+    text-decoration: none;
+}
+
+.route a:hover {
+    text-decoration: underline;
+}
+
+/* 正文 */
+
+.supporting {
     text-align: center;
     font-family: 'Noto Sans', sans-serif;
 }
@@ -111,13 +133,11 @@ h3 {
     font-family: 'Noto Sans', sans-serif;
 }
 
-
 /* footer */
 
 .footer {
     display: inline-block;
     background: rgb(76, 148, 123);
-    /* height: 100%; */
     width: 100%;
     padding-top: 45px;
     padding-bottom: 20px;
@@ -144,7 +164,6 @@ h3 {
 .footer-event {
     display: inline-block;
     margin: 0 auto;
-    /* float: left; */
     text-align: left;
 }
 
@@ -156,7 +175,6 @@ h3 {
 .footer-inner {
     width: 80%;
     margin: 0 auto;
-    /* justify-content: space-between; */
 }
 
 .contact {
@@ -197,11 +215,6 @@ footer p {
         margin-top: 18px;
     }
 
-    .container {
-        display: block;
-
-    }
-
 }
 
 @media only screen and (max-width: 635px) {
@@ -213,15 +226,14 @@ footer p {
         display: none;
     }
 
-    .contact {
-        float: left;
-        margin-left: 15vw;
+    .header_logo {
+        margin-left: 10px;
+        margin-right: 10px;
     }
+}
 
-    @media only screen and (max-width: 344px) {
-        .mobiletitle {
-            font-size: 1.3em;
-        }
+@media only screen and (max-width: 344px) {
+    .mobiletitle {
+        font-size: 1.3em;
     }
-
 }
