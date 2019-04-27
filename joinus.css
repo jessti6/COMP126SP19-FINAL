@@ -240,6 +240,11 @@ footer p {
         margin-left: 10px;
         margin-right: 10px;
     }
+
+    .contact {
+        float: left;
+        margin-left: 15vw;
+    }
 }
 
 @media only screen and (max-width: 344px) {

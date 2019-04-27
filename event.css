@@ -119,11 +119,12 @@ body {
     text-decoration: underline;
 }
 
-/* 正文 */
+/* main */
 
 .supporting {
     /* text-align: center; */
     font-family: 'Noto Sans', sans-serif;
+    margin-bottom: 40px;
 }
 
 h3 {
@@ -134,8 +135,8 @@ h3 {
 }
 
 .sibling {
-    height: 200px;
-    width: 300px;
+    height: 300px;
+    width: 500px;
     display: inline-block;
     float: left;
     margin-right: 40px;
@@ -143,8 +144,8 @@ h3 {
 }
 
 .newyear {
-    height: 170px;
-    width: 300px;
+    height: 300px;
+    width: 500px;
     display: inline-block;
     float: left;
     margin-top: 10px;
@@ -153,12 +154,25 @@ h3 {
 }
 
 .midautumn {
-    height: 250px;
-    width: 200px;
+    height: 450px;
+    width: 350px;
     display: inline-block;
     float: left;
     margin-right: 45px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+.article-mid {
+    margin-top: 100px;
+    /* margin-bottom: 50px; */
+}
+
+.article-sib {
+    margin-top: 30px;
+}
+
+.article-new {
+    margin-top: 50px;
 }
 
 .page {
@@ -176,12 +190,12 @@ p {
 
 }
 
-
 /* footer */
 
 .footer {
     display: inline-block;
     background: rgb(76, 148, 123);
+    /* height: 100%; */
     width: 100%;
     padding-top: 45px;
     padding-bottom: 20px;
@@ -208,6 +222,7 @@ p {
 .footer-event {
     display: inline-block;
     margin: 0 auto;
+    /* float: left; */
     text-align: left;
 }
 
@@ -219,6 +234,7 @@ p {
 .footer-inner {
     width: 80%;
     margin: 0 auto;
+    /* justify-content: space-between; */
 }
 
 .contact {
@@ -244,7 +260,6 @@ footer p {
     .eventdropdown {
         margin-top: -82px;
     }
-
 }
 
 @media only screen and (max-width: 767px) {
@@ -275,10 +290,42 @@ footer p {
         margin-right: 10px;
     }
 
+    .sibling {
+        height: 250px;
+        width: 400px;
+    }
+
     .midautumn {
         height: 335px;
         width: 285px;
     }
+
+    .newyear {
+        height: 200px;
+        width: 400px;
+    }
+
+    .contact {
+        float: left;
+        margin-left: 15vw;
+    }
+
+    .footer {
+        padding-top: 25px;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    .newyear {
+        height: 170px;
+        width: 300px;
+    }
+
+    .sibling {
+        height: 170px;
+        width: 300px;
+    }
+
 }
 
 @media only screen and (max-width: 344px) {

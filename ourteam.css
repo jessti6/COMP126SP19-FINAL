@@ -304,6 +304,11 @@ footer p {
         width: 95%;
 
     }
+
+    .header_logo {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
 
 @media only screen and (max-width: 566px) {
