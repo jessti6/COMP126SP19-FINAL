@@ -139,6 +139,7 @@ h3 {
     width: 500px;
     display: inline-block;
     float: left;
+    margin-top: 10px;
     margin-right: 40px;
     margin-bottom: 20px;
 }
@@ -154,25 +155,25 @@ h3 {
 }
 
 .midautumn {
-    height: 450px;
-    width: 350px;
+    height: 400px;
+    /* width: 350px; */
     display: inline-block;
     float: left;
+    margin-top: 10px;
     margin-right: 45px;
     margin-bottom: 40px;
 }
 
 .article-mid {
-    margin-top: 100px;
-    /* margin-bottom: 50px; */
+    margin-top: 20px;
 }
 
 .article-sib {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .article-new {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .page {
@@ -184,11 +185,11 @@ hr {
     width: 100%;
 }
 
-p {
+/* p {
     margin-top: 20px;
     margin-bottom: 20px;
 
-}
+} */
 
 /* footer */
 
@@ -276,7 +277,7 @@ footer p {
 
 }
 
-@media only screen and (max-width: 635px) {
+@media only screen and (max-width: 650px) {
     .footer-about {
         display: none;
     }
@@ -310,9 +311,9 @@ footer p {
         margin-left: 15vw;
     }
 
-    .footer {
+    /* .footer {
         padding-top: 25px;
-    }
+    } */
 }
 
 @media only screen and (max-width: 470px) {
